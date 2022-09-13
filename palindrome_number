@@ -1,0 +1,19 @@
+str="napam"
+
+let sum=0;
+
+for(let i=0;i<arr.length-1;i++){
+    sum+=arr[i];
+}
+
+let bag=0;
+
+for(let j=0;j<arr.length-1;j++){
+    bag+=arr[i];
+}
+
+if(bag==sum){
+console.log(Palindrome);
+}else{
+console.log(Not palindrome);
+}
