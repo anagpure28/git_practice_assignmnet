@@ -1,13 +1,11 @@
 str="napam"
 
 let sum="";
-
 for(let i=0;i<=str.length-1;i++){
     sum+=str[i];
 }
 
 let bag="";
-
 for(let j=str.length-1;j>=0;j--){
     bag+=str[j];
 }
