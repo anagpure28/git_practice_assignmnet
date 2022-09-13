@@ -2,18 +2,18 @@ str="napam"
 
 let sum=0;
 
-for(let i=0;i<arr.length-1;i++){
-    sum+=arr[i];
+for(let i=0;i<str.length-1;i++){
+    sum+=str[i];
 }
 
 let bag=0;
 
-for(let j=0;j<arr.length-1;j++){
-    bag+=arr[i];
+for(let j=0;j<str.length-1;j++){
+    bag+=str[i];
 }
 
 if(bag==sum){
-console.log(Palindrome);
+console.log("(Palindrome);")
 }else{
-console.log(Not palindrome);
+console.log("Not palindrome");
 }
